@@ -1,0 +1,105 @@
+.Home{
+    background-image: linear-gradient(90deg, rgb(30, 60, 114) 0%, rgba(15, 51, 171, 1) 70%, rgba(15, 2, 180, 1) 100%);
+
+}
+.page3,.page5{
+    padding:5px;
+    background-image: linear-gradient(90deg, rgb(30, 60, 114) 0%, rgba(15, 51, 171, 1) 70%, rgba(15, 2, 180, 1) 100%);
+}
+#heading{
+    background-image: linear-gradient(90deg, rgb(30, 60, 114) 0%, rgba(15, 51, 171, 1) 70%, rgba(15, 2, 180, 1) 100%);
+padding:5px;
+}
+/* .form{
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+.jdiv::before {
+    content: '';
+    background:  linear-gradient(90deg, rgb(30, 60, 114) 0%, rgba(15, 51, 171, 1) 70%, rgba(15, 2, 180, 1) 100%);
+    height: 5px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(74px);
+  }
+  
+  .jdiv::after {
+    content: '';
+    background:  linear-gradient(90deg, rgb(30, 60, 114) 0%, rgba(15, 51, 171, 1) 70%, rgba(15, 2, 180, 1) 100%);
+    height: 10px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(-4px);
+  }
+  .idiv::before {
+    content: '';
+    background: #fff;
+    height: 5px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(74px);
+  }
+  
+  .idiv::after {
+    content: '';
+    background:#fff;
+    height: 10px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(-4px);
+  }
+  .hdiv::before {
+    content: '';
+    background-image:linear-gradient(90deg, rgb(30, 60, 114) 0%, rgba(15, 51, 171, 1) 70%, rgba(15, 2, 180, 1) 100%);
+    height: 5px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(74px);
+  }
+  
+  .hdiv::after {
+    content: '';
+    background-image: linear-gradient(90deg, rgb(30, 60, 114) 0%, rgba(15, 51, 171, 1) 70%, rgba(15, 2, 180, 1) 100%);
+    height: 10px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(-4px);
+  }
+   .kdiv::before {
+    content: '';
+    background:#fff;
+    height: 5px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(74px);
+  }
+  
+  .kdiv::after {
+    content: '';
+    background:#fff;
+    height: 10px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(-4px);
+  }
